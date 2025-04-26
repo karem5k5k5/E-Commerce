@@ -26,7 +26,7 @@ const App = () => {
     {
       path: "", element: <Layout />, children: [
         { path: "/", element: <ProtectedRoute><Home /></ProtectedRoute> },
-        { path: "/E-Commerce", element: <ProtectedRoute><Login /></ProtectedRoute> },
+        { path: "/E-Commerce/", element: <ProtectedRoute><Login /></ProtectedRoute> },
         { path: "/ProductDetails/:id", element: <ProtectedRoute><ProductDetails /></ProtectedRoute> },
         { path: "/brands", element: <ProtectedRoute><Brands /></ProtectedRoute> },
         { path: "/cart", element: <ProtectedRoute><Cart /></ProtectedRoute> },
